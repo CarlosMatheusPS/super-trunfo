@@ -124,7 +124,7 @@ function jogar() {
     let valorCartaMaquina = cartaMaquina.atributos[atributoSelecionado];
 
     if (atributoSelecionado === undefined) {
-        elementoResultado.innerHTML = "<p class='resultado-final'>Selecione um atributo!/p>";
+        elementoResultado.innerHTML = "<p class='resultado-final'>Selecione um atributo!</p>";
     } else if (valorCartaJogador > valorCartaMaquina) {
         elementoResultado.innerHTML = "<p class='resultado-final'>Você Venceu! ╰(*°▽°*)╯</p>";
         exibirCartaMaquina();
