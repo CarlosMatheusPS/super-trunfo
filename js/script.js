@@ -163,9 +163,7 @@ let carta18 ={
     }
 }
 
-
-
-let cartas = [carta1, carta2, carta3, carta4, carta5, carta6, carta7, carta8, carta9, carta10, carta11,carta12,carta13,carta14,carta15];
+let cartas = [carta1, carta2, carta3, carta4, carta5, carta6, carta7, carta8, carta9, carta10, carta11,carta12,carta13,carta14,carta15,carta16,carta17,carta18];
 let cartaMaquina;
 let cartaJogador;
 
