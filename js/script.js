@@ -82,7 +82,7 @@ let carta9 = {
 }
 let carta10 = {
     nome: "Furiosa",
-    imagem: 'https://t.ctcdn.com.br/I_4N0e0-YpwcWgjLOknScE0O2Ws=/1300x731/smart/filters:format(webp)/i414296.jpeg',
+    imagem: 'https://conteudo.imguol.com.br/c/entretenimento/2c/2021/09/12/furiosa-mad-max-1631485270026_v2_615x300.jpg',
     atributos:{
         ataque: 9,
         intelecto: 6,
@@ -129,7 +129,7 @@ let carta14 ={
 let carta15 ={
     nome: 'Feiticeira Escalarte',
     imagem:'https://disneyplusbrasil.com.br/wp-content/uploads/2021/04/Feiticeira-Escarlate-Serie-DisneyPlus.jpg',
-    atributo:{
+    atributos:{
         ataque: 1,
         intelecto: 4,
         magia: 10,
