@@ -70,6 +70,7 @@ let carta8 = {
         magia: 10,
     }
 }
+
 let carta9 = {
     nome: "Dexter",
     imagem: 'http://midia.gruposinos.com.br/_midias/jpg/2016/04/27/xyz12col_0105-1452072.jpg',
@@ -79,8 +80,92 @@ let carta9 = {
         magia: 0,
     }
 }
+let carta10 = {
+    nome: "Furiosa",
+    imagem: 'https://t.ctcdn.com.br/I_4N0e0-YpwcWgjLOknScE0O2Ws=/1300x731/smart/filters:format(webp)/i414296.jpeg',
+    atributos:{
+        ataque: 9,
+        intelecto: 6,
+        magia: 0,
+    }
+}
+let carta11 = {
+    nome: "Hermione Granger",
+    imagem: 'https://images.mod-fashions.com/img/lists/2/harry-potter-15-times-hermione-granger-was-worst.jpg',
+    atributos:{
+        ataque:3,
+        intelecto: 8,
+        magia: 7,
+    }
+}
+let carta12 ={
+    nome:'Lisa Simpson',
+    imagem:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmsqajv9A2C_mcEEPQXUHYplS4DI2HE8ldSQ&usqp=CAU',
+    atributos:{
+        ataque: 0,
+        intelecto: 10,
+        magia: 0,
+    }
+}
+let carta13 ={
+    nome: "Docinho",
+    imagem: 'https://d2bsjm9patfdz0.cloudfront.net/images/0000039_docinho-meninas-superpoderosas.png',
+    atributos:{
+        ataque: 10,
+        intelecto: 1,
+        magia: 5,
+    }
+}
+let carta14 ={
+    nome: 'Nairobi',
+    imagem:'https://rollingstone.uol.com.br/media/uploads/nairobi_-_la_casa_de_papel_reprod.jpg',
+    atributos:{
+        ataque: 4,
+        intelecto: 9,
+        magia: 0,
 
-let cartas = [carta1, carta2, carta3, carta4, carta5, carta6, carta7, carta8, carta9];
+    }
+}
+let carta15 ={
+    nome: 'Feiticeira Escalarte',
+    imagem:'https://disneyplusbrasil.com.br/wp-content/uploads/2021/04/Feiticeira-Escarlate-Serie-DisneyPlus.jpg',
+    atributo:{
+        ataque: 1,
+        intelecto: 4,
+        magia: 10,
+    }
+}
+let carta16 ={
+    nome:'Michonne',
+    imagem:'https://ovicio.com.br/wp-content/uploads/2022/03/20220318-ovicio-the-walking-dead-amc-michonne-730x365.jpg',
+    atributos:{
+        ataque: 8,
+        intelecto: 7,
+        magia: 0,
+    }
+}
+let carta17 ={
+    nome:'Alex',
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdzkZDxYKNw6LhkrYxSy5Xg4j6fBlUFHGe2A&usqp=CAU',
+    atributos:{
+        ataque:8,
+        intelecto:6,
+        magia:0,
+    }
+}
+let carta18 ={
+    nome:'Amy Farrah Fowler',
+    imagem:'https://i.pinimg.com/originals/1c/d1/ec/1cd1ec536fbd94eae4219dbe4e801267.png',
+    atributos:{
+        ataque:1,
+        intelecto:8,
+        magia: 2,
+    }
+}
+
+
+
+let cartas = [carta1, carta2, carta3, carta4, carta5, carta6, carta7, carta8, carta9, carta10, carta11,carta12,carta13,carta14,carta15];
 let cartaMaquina;
 let cartaJogador;
 
