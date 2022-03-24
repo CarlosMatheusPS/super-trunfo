@@ -207,21 +207,21 @@ function jogar() {
     let valorCartaMaquina = cartaMaquina.atributos[atributoSelecionado];
 
     if (atributoSelecionado === undefined) {
-        elementoResultado.innerHTML = "<p class='resultado-final'>Selecione um atributo!</p>";
+        elementoResultado.innerHTML = "<p class='resultado-final-indefinido'>Selecione um atributo!</p>";
     } else if (valorCartaJogador > valorCartaMaquina) {
-        elementoResultado.innerHTML = "<p class='resultado-final'>Você Venceu! ╰(*°▽°*)╯</p>";
+        elementoResultado.innerHTML = "<p class='resultado-final-vitoria'>Você Venceu! ╰(*°▽°*)╯</p>";
         exibirCartaMaquina();
         document.getElementById("btnSortear").disabled = false;
         document.getElementById("btnJogar").disabled = true;
 
     } else if (valorCartaMaquina > valorCartaJogador) {
-        elementoResultado.innerHTML = "<p class='resultado-final'>Você Perdeu! A carta da máquina é maior!</p>";
+        elementoResultado.innerHTML = "<p class='resultado-final-derrota'>Você Perdeu! A carta da máquina é maior!</p>";
         exibirCartaMaquina();
         document.getElementById("btnSortear").disabled = false;
         document.getElementById("btnJogar").disabled = true;
 
     } else {
-        elementoResultado.innerHTML = "<p class='resultado-final'>Empatou! </p>";
+        elementoResultado.innerHTML = "<p class='resultado-final-empate'>Empatou! </p>";
         exibirCartaMaquina();
         document.getElementById("btnSortear").disabled = false;
         document.getElementById("btnJogar").disabled = true;
